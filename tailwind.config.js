@@ -6,6 +6,12 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      WHITE: "#FFFBF5",
+      GRAY: "#F7EFE5",
+      COLDPURPLE: "#C3ACD0",
+      HOTPURPLE: "#674188",
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -15,12 +21,6 @@ module.exports = {
       fontFamily: {
         Robot: ["robot"],
         Acme: ["acme"],
-      },
-      colors: {
-        WHITE: "#FFFBF5",
-        GRAY: "#F7EFE5",
-        COLDPURPLE: "#C3ACD0",
-        HOTPURPLE: "#674188",
       },
     },
   },
