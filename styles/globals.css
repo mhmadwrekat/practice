@@ -1,7 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@layer base {
+  @font-face {
+    font-family: "robot";
+    src: url(../public/fonts/robot.ttf);
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "acme";
+    src: url(../public/fonts/acme.ttf);
+    font-display: swap;
+  }
+}
+/* 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +36,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
