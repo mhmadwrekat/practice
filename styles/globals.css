@@ -5,12 +5,12 @@
 @layer base {
   @font-face {
     font-family: "robot";
-    src: url(../public/fonts/robot.ttf);
+    src: url(../public/assest/fonts/robot.ttf);
     font-display: swap;
   }
   @font-face {
     font-family: "acme";
-    src: url(../public/fonts/acme.ttf);
+    src: url(../public/assest/fonts/acme.ttf);
     font-display: swap;
   }
 }

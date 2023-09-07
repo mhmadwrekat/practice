@@ -11,6 +11,7 @@ module.exports = {
       GRAY: "#F7EFE5",
       COLDPURPLE: "#C3ACD0",
       HOTPURPLE: "#674188",
+      COLDBLUE: "#D6E1F0",
     },
     extend: {
       backgroundImage: {
