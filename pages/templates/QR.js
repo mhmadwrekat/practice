@@ -7,7 +7,7 @@ const QR = () => {
       <Nav navKeyword={"QR Component"} />
       <section className="lg:p-0 xl:p-0 2xl:p-0 md:p-16 sm:p-10 bg-COLDBLUE">
         <section className="h-screen justify-center align-center items-center flex bg-COLDBLUE">
-          <section className="text-HOTPURPL font-Robot p-3 lg:p-4 2xl:p-4 bg-white rounded-xl sm:w-5/12 w-9/12 md:w-5/12 lg:w-3/12 2xl:w-3/12">
+          <section className="text-HOTPURPL font-Robot p-3 lg:p-4 2xl:p-4 bg-white rounded-xl sm:w-5/12 w-9/12 md:w-5/12 lg:w-2/12 2xl:w-2/12">
             <Image
               src="/assest/img/QR/QR.webp"
               alt="QR Image"
