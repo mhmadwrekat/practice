@@ -7,7 +7,7 @@ const CardsProject = () => {
     <section className="font-Robot text-center grid grid-cols-2 lg:grid-cols-3 gap-5 md:gap-20 2xl:gap-36 justify-center align-center items-center w-12/12 md:w-11/12 lg:w-11/12 m-auto">
       {project.map((item, key) => {
         return (
-          <section key={key} className="rounded-2xl bg-COLDBLUE">
+          <section key={key} className="rounded-2xl bg-white">
             <h1 className="rounded-t-2xl text-xs p-0.5 md:text-lg 2xl:text-xl font-bold block bg-HOTPURPLE text-GRAY">
               {item.Title}
             </h1>
