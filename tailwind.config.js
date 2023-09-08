@@ -6,6 +6,9 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    letterSpacing: {
+      widest: ".3em",
+    },
     colors: {
       WHITE: "#FFFBF5",
       GRAY: "#F7EFE5",
