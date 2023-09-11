@@ -52,7 +52,7 @@ const TestimonailsGrid = () => {
   return (
     <section className="bg-COLDBLUE">
       <Nav navKeyword={"Testimonials Grid Section"} />
-      <section className="md:h-screen lg:h-auto h-auto 2xl:h-auto py-10 md:py-20 lg:py-20 2xl:py-20 w-11/12 lg:w-11/12 2xl:w-10/12 m-auto">
+      <section className="py-10 md:py-20 lg:py-20 2xl:py-20 w-11/12 lg:w-11/12 2xl:w-10/12 m-auto">
         <section className="grid grid-cols-1 md:grid-cols-4 text-white">
           <section className="w-12/12 m-auto md:col-span-3 md:grid grid-cols-1 md:grid-cols-3 justify-items-center md:gap-3 lg:gap-4 2xl:gap-8">
             <section
