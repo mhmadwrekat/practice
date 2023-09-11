@@ -11,7 +11,7 @@ const ProductPreviewCard = () => {
           className="md:flex md:w-9/12 lg:w-4/12 m-auto bg-white w-11/12 rounded-xl"
         >
           {/* Desktop Image View */}
-          <div className="hidden md:block m-auto w-6/12">
+          <div className="hidden md:block m-auto md:w-4/12 lg:w-6/12">
             <Image
               src="/assest/img/productPreviewCard/product.webp"
               alt="product Preview Card"
@@ -39,25 +39,18 @@ const ProductPreviewCard = () => {
               blurDataURL="/assest/img/productPreviewCard/product.webp"
             />
           </div>
-          {/* <div className="w-6/12 grid">
-          <p>1</p>
-          <p>2</p>
-          <p>3</p>
-          <p>4</p>
-          <p>5</p>
-          </div> */}
           <div className="md:w-6/12 grid">
-            <p className="mx-12 mt-4 text-sm md:mx-7 md:mt-6 2xl:mx-7 2xl:mt-6 text-gray-400 font-serif tracking-widest lg:text-sm lg:mt-3 lg:mx-5">
+            <p className="mx-5 mt-4 text-sm md:mx-7 md:mt-6 2xl:mx-7 2xl:mt-6 text-gray-400 font-serif tracking-widest lg:text-sm lg:mt-3 lg:mx-5">
               PERFUME
             </p>
-            <h1 className="text-3xl mx-12 mt-2 md:mx-7 md:mt-3 md:text-3xl 2xl:mx-7 2xl:mt-3 2xl:text-3xl font-Robot font-bold lg:text-2xl lg:mt-1 lg:mx-5">
+            <h1 className="text-3xl mx-5 mt-2 md:mx-7 md:mt-3 md:text-3xl 2xl:mx-7 2xl:mt-3 2xl:text-3xl font-Robot font-bold lg:text-2xl lg:mt-1 lg:mx-5">
               Gabrielle Essence Eau De Perfum
             </h1>
-            <h2 className="mx-12 mt-3 text-sm text-gray-400 lg:text-xs lg:mx-5 lg:mt-2 2xl:mx-7 2xl:mt-6 md:mx-7 md:mt-6">
+            <h2 className="mx-5 mt-3 text-sm text-gray-400 lg:text-xs lg:mx-5 lg:mt-2 2xl:mx-7 2xl:mt-6 md:mx-7 md:mt-6">
               A floral, solar and voluptuous interpretation composed by Olivier
               Polge, Perfume.Creator for the House of CHANEL.
             </h2>
-            <div className="ml-12 mt-3 items-center lg:ml-5 lg:mt-2 2xl:ml-7 2xl:mt-5 md:ml-7 md:mt-5 flex">
+            <div className="ml-5 mt-3 items-center lg:ml-5 lg:mt-2 2xl:ml-7 2xl:mt-5 md:ml-7 md:mt-5 flex">
               <b className="text-4xl text-green-700 font-Acme lg:text-3xl 2xl:text-4xl md:text-4xl">
                 $ 149.99
               </b>
@@ -66,7 +59,7 @@ const ProductPreviewCard = () => {
               </p>
             </div>
 
-            <button className="mb-4 py-2.5 px-20 text-sm mt-3 md:px-14 md:py-2.5 md:text-sm md:mt-3 2xl:px-14 2xl:py-2.5 2xl:text-sm 2xl:mt-3 m-auto lg:mt-2 lg:text-xs font-semibold flex text-white bg-green-700 items-center rounded-md lg:px-10 lg:py-1.5">
+            <button className="mb-4 py-3 px-24 text-sm mt-3 md:px-14 md:py-2.5 md:text-sm md:mt-3 2xl:px-14 2xl:py-2.5 2xl:text-sm 2xl:mt-3 m-auto lg:mt-2 lg:text-xs font-semibold flex text-white bg-green-700 items-center rounded-md lg:px-10 lg:py-1.5">
               <svg
                 width="15"
                 height="16"

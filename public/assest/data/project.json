@@ -2,13 +2,11 @@
   {
     "Title": "QR code component",
     "Link": "/templates/QR",
-    "Img": "/assest/img/QR/QR.webp",
-    "Details": "QR code component, perfect challenge, easy code, and its responsive layouts."
+    "Img": "/assest/img/QR/QR.webp"
   },
   {
     "Title": "Product Preview Card",
     "Link": "/templates/ProductPreviewCard",
-    "Img": "/assest/img/productPreviewCard/product.webp",
-    "Details": "Product Card component, perfect challenge, and its responsive layouts."
+    "Img": "/assest/img/productPreviewCard/product.webp"
   }
 ]
