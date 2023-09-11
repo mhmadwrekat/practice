@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import project from "@/public/assest/data/project.json";
+import project from "../../public/assest/data/project.json";
 import Link from "next/link";
 const CardsProject = () => {
   return (
@@ -9,9 +9,9 @@ const CardsProject = () => {
         return (
           <section
             key={key}
-            className="rounded-2xl bg-white w-12/12 h-full lg:h-96 2xl:h-96"
+            className="rounded-2xl bg-white w-12/12"
           >
-            <h1 className="rounded-t-2xl text-xs p-0.5 md:text-lg 2xl:text-xl font-bold block bg-HOTPURPLE text-GRAY">
+            <h1 className="rounded-t-2xl text-xs p-0.5 md:text-base 2xl:text-base font-bold block bg-HOTPURPLE text-GRAY">
               {item.Title}
             </h1>
             <Link href={item.Link}>
