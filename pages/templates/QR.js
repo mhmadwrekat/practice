@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "@/component/page/Nav";
+import Nav from "../../component/page/Nav";
 import Image from "next/image";
 const QR = () => {
   return (

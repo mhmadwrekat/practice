@@ -1,54 +1,7 @@
 import React from "react";
-import Nav from "@/component/page/Nav";
+import Nav from "../../component/page/Nav";
 import Image from "next/image";
 const TestimonailsGrid = () => {
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
-  // <div className="w-4/12 bg-TestimonialsGrid bg-cover bg-no-repeat" />
   return (
     <section className="bg-COLDBLUE">
       <Nav navKeyword={"Testimonials Grid Section"} />

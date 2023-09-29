@@ -1,24 +1,23 @@
-import React from "react";
-import Head from "next/head";
+import { Html, Head, Main, NextScript } from 'next/document'
 import { NextSeo } from "next-seo";
+const head_keywords = `
+Frontenddeveloper
+Frontend developer
+Frontend
+Frontend project
+frontenddeveloper
+frontend developer
+frontend project
+`;
+const head_description = `
+◉ Frontend Web Development.
+◉ Practice on Templates.
+`;
 
-const HeadComp = () => {
-  const head_keywords = `
-    Frontenddeveloper
-    Frontend developer
-    Frontend
-    Frontend project
-    frontenddeveloper
-    frontend developer
-    frontend project
-    `;
-  const head_description = `
-    ◉ Frontend Web Development.
-    ◉ Practice on Templates.
-    `;
-
+export default function Document() {
   return (
-    <Head>
+    <Html>
+      <Head>
       <link rel="icon" href="./assest/img/code.webp" />
       <link rel="apple-touch-icon" href="./assest/img/code.webp" />
       <link
@@ -46,8 +45,11 @@ const HeadComp = () => {
           type: "website",
         }}
       />
-    </Head>
-  );
-};
-
-export default HeadComp;
+            </Head>
+      <body>
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
+  )
+}
