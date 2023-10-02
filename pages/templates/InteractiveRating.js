@@ -13,7 +13,7 @@ const InteractiveRating = () => {
   const rateStarNumber = [1, 2, 3, 4, 5];
 
   return (
-    <section className="">
+    <React.Fragment>
       <Nav navKeyword={"Interactive Rating"} />
       <section className="bg-black p-0 lg:p-10 md:p-10">
         <section className="h-screen flex">
@@ -136,11 +136,11 @@ const InteractiveRating = () => {
                   fill="#FC7614"
                 />
               </svg>
-              <h2 className="mt-6 text-3xl font-semibold">How did we do?</h2>
-              <h3 className="my-6 text-gray-400">
+              <p className="mt-6 text-3xl font-semibold">How did we do?</p>
+              <p className="my-6 text-gray-400">
                 Please let us kmow how we did with your support request. All
                 feedback is appreciated to help us improve offering!
-              </h3>
+              </p>
               <section className="grid grid-cols-5 gap-5 md:gap-10 lg:gap-4 2xl:gap-6 text-center mb-8 text-gray-400">
                 {rateStarNumber.map((item, key) => {
                   return (
@@ -168,7 +168,7 @@ const InteractiveRating = () => {
           )}
         </section>
       </section>
-    </section>
+    </React.Fragment>
   );
 };
 

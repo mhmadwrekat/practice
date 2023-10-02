@@ -3,7 +3,7 @@ import Nav from "../../component/page/Nav";
 import Image from "next/image";
 const QR = () => {
   return (
-    <>
+    <React.Fragment>
       <Nav navKeyword={"QR Component"} />
       <section className="lg:p-0 xl:p-0 2xl:p-0 md:p-16 sm:p-10 bg-COLDBLUE">
         <section className="h-screen justify-center align-center items-center flex bg-COLDBLUE">
@@ -31,7 +31,7 @@ const QR = () => {
           </section>
         </section>
       </section>
-    </>
+    </React.Fragment>
   );
 };
 

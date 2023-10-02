@@ -1,9 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import CardsProject from "./CardsProject";
+import Nav from "../page/Nav";
 const Home = () => {
   return (
-    <>
+    <React.Fragment>
+      <Nav />
+      <section className="text-HOTPURPL w-11/12 md:w-10/12 m-auto">
       <section className="pt-3 lg:pt-20 grid lg:grid-cols-2 items-center">
         <div className="mx-3">
           <h1 className="text-HOTPURPLE text-4xl lg:text-4xl 2xl:text-5xl font-medium">
@@ -35,7 +38,8 @@ const Home = () => {
       <hr className="my-8 md:my-10 2xl:my-20 text-COLDPURPLE" />
       <CardsProject />
       <section className="py-10"></section>
-    </>
+      </section>
+    </React.Fragment>
   );
 };
 export default Home;

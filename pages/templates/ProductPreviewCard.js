@@ -7,7 +7,6 @@ const ProductPreviewCard = () => {
       <Nav navKeyword={"Product Preview Card"} />
       <section className="py-5 md:py-0 h-screen justify-center align-center items-center flex bg-WHITE">
         <section
-          id="card"
           className="md:flex md:w-9/12 lg:w-6/12 2xl:w-4/12 m-auto bg-white w-11/12 rounded-xl"
         >
           {/* Desktop Image View */}
@@ -43,13 +42,13 @@ const ProductPreviewCard = () => {
             <p className="mx-5 mt-4 text-sm md:mx-7 md:mt-6 2xl:mx-7 2xl:mt-6 text-gray-400 font-serif tracking-widest lg:text-sm lg:mt-3 lg:mx-5">
               PERFUME
             </p>
-            <h1 className="text-3xl mx-5 mt-2 md:mx-7 md:mt-3 md:text-3xl 2xl:mx-7 2xl:mt-3 2xl:text-3xl font-Robot font-bold lg:text-3xl lg:mt-1 lg:mx-5">
+            <p className="text-3xl mx-5 mt-2 md:mx-7 md:mt-3 md:text-3xl 2xl:mx-7 2xl:mt-3 2xl:text-3xl font-Robot font-bold lg:text-3xl lg:mt-1 lg:mx-5">
               Gabrielle Essence Eau De Perfum
-            </h1>
-            <h2 className="mx-5 mt-3 text-sm text-gray-400 lg:text-base 2xl:text-sm lg:mx-5 lg:mt-2 2xl:mx-7 2xl:mt-6 md:mx-7 md:mt-6">
+            </p>
+            <p className="mx-5 mt-3 text-sm text-gray-400 lg:text-base 2xl:text-sm lg:mx-5 lg:mt-2 2xl:mx-7 2xl:mt-6 md:mx-7 md:mt-6">
               A floral, solar and voluptuous interpretation composed by Olivier
               Polge, Perfume.Creator for the House of CHANEL.
-            </h2>
+            </p>
             <div className="ml-5 mt-3 items-center lg:ml-5 lg:mt-2 2xl:ml-7 2xl:mt-5 md:ml-7 md:mt-5 flex">
               <b className="text-4xl text-green-700 font-Acme lg:text-3xl 2xl:text-4xl md:text-4xl">
                 $ 149.99

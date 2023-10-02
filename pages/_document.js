@@ -16,7 +16,7 @@ const head_description = `
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang='en'>
       <Head>
       <link rel="icon" href="./assest/img/code.webp" />
       <link rel="apple-touch-icon" href="./assest/img/code.webp" />

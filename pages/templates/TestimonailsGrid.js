@@ -9,7 +9,6 @@ const TestimonailsGrid = () => {
         <section className="grid grid-cols-1 md:grid-cols-4 text-white">
           <section className="w-12/12 m-auto md:col-span-3 md:grid grid-cols-1 md:grid-cols-3 justify-items-center md:gap-3 lg:gap-4 2xl:gap-8">
             <section
-              id="card-1"
               className="shadow-xl p-4 md:p-2 lg:p-4 2xl:p-6 md:col-span-2 bg-purple-700 rounded-md"
             >
               <div className="flex justify-start">
@@ -52,7 +51,6 @@ const TestimonailsGrid = () => {
               </h5>
             </section>
             <section
-              id="card-2"
               className="mt-5 md:mt-0 p-4 md:p-2 shadow-xl bg-gray-600 rounded-md lg:p-4 2xl:p-6"
             >
               <div className="flex justify-start">
@@ -78,14 +76,14 @@ const TestimonailsGrid = () => {
                   </p>
                 </div>
               </div>
-              <h2 className="my-5 font-bold text-base lg:text-xl 2xl:text-xl">
+              <p className="my-5 font-bold text-base lg:text-xl 2xl:text-xl">
                 The team was very supportive and kept me motivated
-              </h2>
-              <h5 className="text-xs lg:text-base 2xl:text-base">
+              </p>
+              <p className="text-xs lg:text-base 2xl:text-base">
                 “I started as a total newbie with virtually no coding skills. I
                 now work as a mobile engineer for a big company. This was one of
                 the best investments I’ve made in myself. ”
-              </h5>{" "}
+              </p>
             </section>
             <section
               id="card-3"
@@ -114,17 +112,16 @@ const TestimonailsGrid = () => {
                   </p>
                 </div>
               </div>
-              <h2 className="my-5 font-bold text-base lg:text-xl 2xl:text-xl">
+              <p className="my-5 font-bold text-base lg:text-xl 2xl:text-xl">
                 An overall wonderful and rewarding experience
-              </h2>
-              <h5 className="text-xs lg:text-base 2xl:text-base">
+              </p>
+              <p className="text-xs lg:text-base 2xl:text-base">
                 “ Thank you for the wonderful experience! I now have a job I
                 really enjoy, and make a good living while doing something I
                 love. ”
-              </h5>
+              </p>
             </section>
             <section
-              id="card-4"
               className="mt-5 md:mt-0 p-4 md:p-2 shadow-xl bg-gray-900 rounded-md lg:p-4 2xl:p-6 col-span-2"
             >
               <div className="flex justify-start">
@@ -150,24 +147,23 @@ const TestimonailsGrid = () => {
                   </p>
                 </div>
               </div>
-              <h2 className="my-5 font-bold text-base lg:text-xl 2xl:text-xl">
+              <p className="my-5 font-bold text-base lg:text-xl 2xl:text-xl">
                 Awesome teaching support from TAs who did the bootcamp
                 themselves. Getting guidance from them and learning from their
                 experiences was easy.
-              </h2>
-              <h5 className="text-xs lg:text-base 2xl:text-base">
+              </p>
+              <p className="text-xs lg:text-base 2xl:text-base">
                 “ The staff seem genuinely concerned about my progress which I
                 find really refreshing. The program gave me the confidence
                 necessary to be able to go out in the world and present myself
                 as a capable junior developer. The standard is above the rest.
                 You will get the personal attention you need from an incredible
                 community of smart and amazing people. ”
-              </h5>
+              </p>
             </section>
           </section>
 
           <section
-            id="card-LLONG"
             className="mt-5 md:mt-0 p-4 md:p-2 md:ml-3 lg:ml-4 2xl:ml-8 w-12/12 m-auto shadow-xl bg-white text-gray-700 rounded-md lg:p-3 2xl:p-7"
           >
             <div className="flex justify-start">
@@ -193,10 +189,10 @@ const TestimonailsGrid = () => {
                 </p>
               </div>
             </div>
-            <h2 className="my-5 font-bold text-base lg:text-xl 2xl:text-xl">
+            <p className="my-5 font-bold text-base lg:text-xl 2xl:text-xl">
               Such a life-changing experience. Highly recommended!
-            </h2>
-            <h5 className="text-xs lg:text-base 2xl:text-base">
+            </p>
+            <p className="text-xs lg:text-base 2xl:text-base">
               “ Before joining the bootcamp, I’ve never written a line of code.
               I needed some structure from professionals who can help me learn
               programming step by step. I was encouraged to enroll by a former
@@ -209,7 +205,7 @@ const TestimonailsGrid = () => {
               example of my developent experience. It certainly helped me land a
               job as a full-stack developer after receiving multiple offers.
               100% recommend! ”
-            </h5>
+            </p>
           </section>
         </section>
       </section>

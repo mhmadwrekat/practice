@@ -1,5 +1,10 @@
 [
   {
+    "Title": "Body Mass BMI",
+    "Link": "/templates/BodyMass",
+    "Img": "/assest/img/bodyMass/result.webp"
+  },
+  {
     "Title": "QR code component",
     "Link": "/templates/QR",
     "Img": "/assest/img/QR/QR.webp"

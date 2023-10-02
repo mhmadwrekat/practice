@@ -7,7 +7,7 @@ const Nav = ({ navKeyword }) => {
       <h1 className="lg:ml-20 2xl:ml-32 p-3 md:p-4">
         <Link href="/">
           <b className="text-HOTPURPLE bg-WHITE rounded p-1.5">Home</b>
-        </Link>{" "}
+        </Link>
         | {titleNav}
       </h1>
     </section>
