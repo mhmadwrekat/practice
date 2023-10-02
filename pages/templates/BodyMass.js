@@ -101,11 +101,11 @@ const BodyMass = () => {
         <section className="w-11/12 lg:w-11/12 2xl:w-10/12 m-auto">
           <section className="py-5 lg:py-10 2xl:py-20 grid md:grid-cols-1 lg:grid-cols-2 text-gray-800">
             <div className="py-5 lg:py-10">
-              <p className="w-11/12 lg:w-8/12 m-auto text-center lg:text-start font-medium text-4xl md:text-5xl 2xl:text-6xl">
+              <p className="lg:ml-7 2xl:ml-8 w-11/12 lg:w-8/12 md:text-start text-center lg:text-start font-medium text-4xl md:text-5xl 2xl:text-6xl">
                 Body Mass
                 <br /> Index Calculator
               </p>
-              <p className="text-center lg:text-start my-4 lg:my-6 md:my-6 text-gray-500 w-11/12 m-auto text-base">
+              <p className="lg:ml-7 2xl:ml-8 text-center lg:text-start my-4 lg:my-6 md:my-6 text-gray-500 w-11/12 text-base">
                 Better understand your weight in relaion to your height using
                 our body mass index (BM) calculator. While BMI is not the sole
                 determinant of a healthy weight, it offers a valuable starting
@@ -229,9 +229,9 @@ const BodyMass = () => {
         <section className="grid lg:grid-cols-3 gap-14 md:gap-10 lg:gap-10 w-11/12 md:w-11/12 lg:w-8/12 m-auto">
           {improveWeight.map((item, key) => {
             return (
-              <div key={key} className="md:flex lg:mx-2 ">
-                <div className="md:mt-6">{item.svg}</div>
-                <div className="md:ml-6">
+              <div key={key} className="md:flex lg:block lg:mx-2 ">
+                <div className="md:mt-6 lg:mt-0">{item.svg}</div>
+                <div className="md:ml-6 lg:ml-0">
                   <p className="text-gray-800 text-xl md:text-2xl lg:text-2xl font-medium my-3 md:my-4 lg:my-5">
                     {item.title}
                   </p>
@@ -246,13 +246,13 @@ const BodyMass = () => {
       </section>
       {/* Last Section --> Limitations of BMI */}
       {/* Last Section --> Limitations of BMI */}
-      <section className="font-Robot w-11/12 lg:w-9/12 m-auto md:my-10 lg:my-20">
+      <section className="font-Robot w-11/12 lg:w-9/12 m-auto md:my-10 lg:my-12">
         <section className="grid lg:grid-cols-2 gap-6 lg:gap-40">
           <div className="text-center lg:text-start">
             <p className="text-4xl font-bold text-gray-800">
               Limitations of BMI
             </p>
-            <p className="text-gray-500 text-base my-7 lg:mr-5">
+            <p className="text-gray-500 text-base my-4 lg:mr-5">
               Although BMI is often a practical indicator of healthy weight, it
               is not suited for every person. Specific groups should carefully
               consider their BMI outcomes, and in certain cases, the measurement
