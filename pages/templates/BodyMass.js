@@ -101,11 +101,11 @@ const BodyMass = () => {
         <section className="w-11/12 lg:w-11/12 2xl:w-10/12 m-auto">
           <section className="py-5 lg:py-10 2xl:py-20 grid md:grid-cols-1 lg:grid-cols-2 text-gray-800">
             <div className="py-5 lg:py-10">
-              <p className="lg:ml-7 2xl:ml-8 w-11/12 lg:w-8/12 md:text-start text-center lg:text-start font-medium text-4xl md:text-5xl 2xl:text-6xl">
+              <p className="lg:ml-7 2xl:ml-8 w-11/12 lg:w-8/12 text-center m-auto lg:text-start font-medium text-4xl md:text-5xl 2xl:text-6xl">
                 Body Mass
                 <br /> Index Calculator
               </p>
-              <p className="lg:ml-7 2xl:ml-8 text-center lg:text-start my-4 lg:my-6 md:my-6 text-gray-500 w-11/12 text-base">
+              <p className="lg:ml-7 2xl:ml-8 text-center m-auto lg:text-start my-4 lg:my-6 md:my-6 text-gray-500 w-11/12 text-base">
                 Better understand your weight in relaion to your height using
                 our body mass index (BM) calculator. While BMI is not the sole
                 determinant of a healthy weight, it offers a valuable starting
