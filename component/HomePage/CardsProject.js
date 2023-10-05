@@ -21,8 +21,8 @@ const CardsProject = () => {
                   priority
                   // layout="fill"
                   // objectFit="cover"
-                  width={300}
-                  height={300}
+                  width={400}
+                  height={400}
                   placeholder="blur"
                   blurDataURL={item.Img}
                 />

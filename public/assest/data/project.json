@@ -1,5 +1,10 @@
 [
   {
+    "Title": "Advice Generator",
+    "Link": "/templates/AdviceGenerator",
+    "Img": "/assest/img/AdviceGenerator/advice.webp"
+  },
+  {
     "Title": "Body Mass BMI",
     "Link": "/templates/BodyMass",
     "Img": "/assest/img/bodyMass/result.webp"
